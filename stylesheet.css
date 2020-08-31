@@ -98,7 +98,17 @@ td {
   color: white;
 }
 
-@media screen and (max-width: width 2560px) {
-  .header { width: 100%;
-    margin-left: 0; }
+
+
+@media screen and (max-width:320px) {
+  .column {width: 100%;}
 }
+
+@media screen and (max-width:425px) {
+  .column {width: 100%;}
+}
+@media screen and (max-width:768px) {
+  .column {width: 100%;}
+}
+
+
