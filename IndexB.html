@@ -36,6 +36,73 @@
       </nav>
 </header>
 
+
+
+<section style="background-color: papayawhip;">
+<h4 class="p-3">Alto ahi Viajero ! Si quieres ganar una promocion especial para ti , intenta Adivinar , dispones de 4 intentos</h3>
+  <p>En que pais se considera de mala costumbre no oler el aroma del cafe ?</p>
+  <input type="text" placeholder="Respuesta" id="respuesta">
+  <button type="button" onclick="juego();">Enviar Respuesta</button>
+  
+  <script>
+     var  iniintentos=0
+      var intentos = 4;
+      
+
+      function juego(){
+
+        if (iniintentos>=4) {
+          alert ("Fue tu ultimo intento ,la respuesta correcta era Etiopia")
+          document.getElementById(respuesta).disabled = true;
+}
+              var rtacorrecta = "Etiopia"
+              var rtausuario = document.getElementById("respuesta").value;
+              do {
+                  if (rtausuario===rtacorrecta) { alert("Felicidades su respuesta es correcta obtienes un 20% off para el paquete Africa CODIGO 'AFK20OFF' ") }
+                  else { iniintentos++;
+                         alert("Intentalo nuevamente , intentos: "+iniintentos)}
+                         if  (rtausuario===rtacorrecta) {document.getElementById(respuesta).disabled = true;}
+                         if (iniintentos===2) {alert("Pista empieza con E")}
+                         if (iniintentos===3) {alert("Pista termina con a")}
+                          break;
+}
+while (iniintentos <= 4);
+
+}
+
+
+             
+      
+
+
+
+              
+      
+
+      
+
+      
+              
+ 
+        
+      
+      
+  </script>
+  
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 <section class="container">  
     <h2>No esperes mas y hace ese viaje que tanto soñas hoy mismo</h2>
     <p>En TravelMate creemos que todos pueden conocer el mundo por eso gracias a nuestra ampliia<br>

@@ -1,22 +1,22 @@
 .navbar-brand {
-    width:200px;
-    font-size: 24px;
-  }
-  .navbar-brand img {
-    height: 100px;
-    /* put value of image height as your need */
-    float: left;
-    margin-right: 107px;
-  }
+  width: 200px;
+  font-size: 24px;
+}
+.navbar-brand img {
+  height: 100px;
+  /* put value of image height as your need */
+  float: left;
+  margin-right: 107px;
+}
 
-  body { 
-      background-color:#ecefa9;
-  }
+body {
+  background-color: #ecefa9;
+}
 
-  .contenedor {
-      padding-top: 50px;
-      background-color:#E4E986;
-      border: double;
-      border-radius:16px;
-      border-color:#45a3d9 ;
-  }
+.contenedor {
+  padding-top: 50px;
+  background-color: #e4e986;
+  border: double;
+  border-radius: 16px;
+  border-color: #45a3d9;
+}
